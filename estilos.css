@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #cccc99;
+}
+
+#boton-comprar{
+    border-radius: 8px;
+    background-color: #006600;
+    color: #cccc99;
+    font-weight: 700;
+}
+
+#boton-vender{
+    border-radius: 8px;
+    background-color: #663300;
+    color: #cccc99;
+    font-weight: 700;
+}
