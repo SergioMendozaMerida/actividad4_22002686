@@ -1,7 +1,7 @@
 {
   "name": "tasa",
   "version": "1.0.0",
-  "description": "",
+  "description": "En este programa el usuario puede ver el tipo de cambio del dolar a pesos peruanos\r puede ver la tasa de venta y la tasa de compra",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -10,6 +10,17 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^23.2.0"
-  }
+    "electron": "^23.2.1"
+  },
+  "dependencies": {
+    "mysql2": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergioMendozaMerida/actividad4_22002686.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SergioMendozaMerida/actividad4_22002686/issues"
+  },
+  "homepage": "https://github.com/SergioMendozaMerida/actividad4_22002686#readme"
 }

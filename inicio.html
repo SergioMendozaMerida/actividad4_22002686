@@ -8,14 +8,13 @@
     <title>Document</title>
 </head>
 <body>
-    <br>
     <h1>Tipo de cambio</h1>
-    <h1>Soles Peruanos a Dolares</h1><br><br>
-    <div class="div">
+    <h1>Soles Peruanos a Dolares</h1>
+    <div class="div" id="primer-div">
         <label class="etiqueta">Precio de Compra</label><br>
-        <input type="text" id="compra"><br><br>
+        <input type="text" id="compra" disabled><br><br>
         <label class="etiqueta">Precio de Venta</label><br>
-        <input type="text" id="venta"><br><br>
+        <input type="text" id="venta" disabled><br><br>
     </div>
     <div>
         <label class="etiqueta">Ingrese Cantidad</label><br>
@@ -23,7 +22,13 @@
         <button id="boton-comprar">Dolares - Soles</button>
         <button id="boton-vender">Soles - Dolares</button><br><br>
         <label class="etiqueta">Resultado</label><br>
-        <input type="text" id="resultado"><br><br>
+        <input type="text" id="resultado" disabled><br><br>
+        <button id="registrar">Guardar Resultado</button>
+        <button id="consultar">Ver registros</button><br>
+        <button id="anterior" disabled>Anterior</button>
+        <button id="siguiente" disabled>Siguiente</button><br><br>
+        <label id="etiqueta-fecha">Fecha registro</label>
+        <input id="in-fecha" disabled>
     </div>
     <script type="text/javascript" src="inicio.js"></script>
 </body>
